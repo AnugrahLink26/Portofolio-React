@@ -1,0 +1,167 @@
+body {
+    background-color: rgba(0, 0, 0, 0.92);
+}
+
+.flex-container {
+    display: flex;
+  }
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 35vw;
+}
+
+    .greetings {
+        position: absolute;
+        margin-left: 10%;
+        font-size: 8vw;
+    }
+
+    .myName {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 10%;
+        font-size: 2.5vw;
+    }
+
+    .name {
+        color: rgb(29, 154, 199);
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 27%;
+        font-size: 5vw;
+    }
+
+    .iAm {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 10%;
+        font-size: 2.5vw;
+    }
+
+    .job {
+        color: rgb(29, 154, 199);
+        position: absolute;
+        margin-top: 23.5%;
+        margin-left: 18%;
+        font-size: 4vw;
+    }
+
+.box10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 100%;
+    height: auto;
+}
+
+    .box10 img {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 125%;
+        padding-right: 50%;
+        max-width: 25%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+    .box2 div {
+        display: flex;
+        margin-left: 5px;
+    }
+
+    .details {
+        display: flex;
+        font-size: 2vw;
+        margin-left: 10px;
+    }
+
+    .head {
+        font-size: 1vw;
+        padding: 0 5px;
+    }
+
+    .answer {
+        color: rgb(29, 154, 199);
+        font-size: 1vw;
+        font-weight: bold;
+    }
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 3.5vw;
+    line-height: 2;
+    font-size: 1.2vw;
+    height: auto;
+}
+
+.box4 {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+    .box4 h1 {
+        padding-left: 10px;
+    }
+
+    .box4 p {
+        padding-left: 20px;
+        line-height: 2;
+        text-align: left;
+        font-size: 1.2vw;
+    }
+
+.box5 {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding-bottom: 1vw;
+}
+
+    input[type=text] {
+        margin-top: 25px;
+        width: 80%;
+        height: 2.5vw;
+        border-radius: 5px;
+        border: 1px solid white;
+    }
+
+    #comment {
+        height: 8vw;
+    }
+
+
+
